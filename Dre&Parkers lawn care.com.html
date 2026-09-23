@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dre & Parker's Lawn Care | Lawn Care</title>
+  <meta name="description" content="Reliable, affordable lawn care from Dre & Parker's Lawn Care. Mowing, edging, cleanups, and more.">
+  <style>
+    :root { --green:#1f6b3a; --dark:#123321; --light:#f4f8f3; --accent:#9dcc55; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:Arial, sans-serif; color:#17351f; background:var(--light); line-height:1.6; }
+    header { background:var(--dark); color:white; padding:18px 7%; display:flex; justify-content:space-between; align-items:center; position:sticky; top:0; z-index:5; }
+    .logo { font-size:1.35rem; font-weight:800; }
+    nav a { color:white; text-decoration:none; margin-left:22px; }
+    .hero { padding:90px 7%; background:linear-gradient(135deg,#1f6b3a,#3d8b4d); color:white; }
+    .hero h1 { font-size:clamp(2.4rem,6vw,4.5rem); line-height:1.05; max-width:750px; }
+    .hero p { max-width:650px; margin:20px 0 28px; font-size:1.15rem; }
+    .btn { display:inline-block; padding:13px 22px; border-radius:8px; text-decoration:none; font-weight:700; margin-right:10px; }
+    .primary { background:var(--accent); color:#17351f; }
+    .secondary { border:2px solid white; color:white; }
+    section { padding:70px 7%; }
+    .section-title { text-align:center; margin-bottom:35px; }
+    .section-title h2 { font-size:2rem; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; max-width:1100px; margin:auto; }
+    .card { background:white; padding:28px; border-radius:14px; box-shadow:0 5px 20px #0000000d; }
+    .card h3 { margin-bottom:8px; color:var(--green); }
+    .about { background:white; }
+    .contact { background:var(--dark); color:white; text-align:center; }
+    .contact a { color:white; }
+    footer { text-align:center; padding:22px; background:#0b2114; color:#c9d8cc; }
+    @media(max-width:650px){ nav{display:none;} .hero{padding-top:65px;} }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">🌱 Dre & Parker's Lawn Care</div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>We make your yard look its best.</h1>
+  <p>Reliable lawn care from Dre & Parker, available Friday, Saturday, and Sunday. We show up, work hard, and leave your yard looking clean.</p>
+  <a class="btn primary" href="#contact">Get a Free Quote</a>
+  <a class="btn secondary" href="#services">Our Services</a>
+</section>
+
+<section id="services">
+  <div class="section-title">
+    <h2>What We Do</h2>
+    <p>Simple, dependable lawn care for your home.</p>
+  </div>
+  <div class="cards">
+    <div class="card"><h3>🌱 Small Yard</h3><p><strong>$30</strong></p><p>Mowing and basic yard cleanup.</p></div>
+    <div class="card"><h3>🌿 Medium Yard</h3><p><strong>$50</strong></p><p>Mowing and basic yard cleanup.</p></div>
+    <div class="card"><h3>🌳 Large Yard</h3><p><strong>$100</strong></p><p>Mowing and basic yard cleanup.</p></div>
+    <div class="card"><h3>🗓️ Our Schedule</h3><p><strong>Friday • Saturday • Sunday</strong></p><p>Message us to book your yard.</p></div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="section-title">
+    <h2>About Us</h2>
+  </div>
+  <div style="max-width:800px;margin:auto;text-align:center;">
+    <p>We're Dre and Parker, two friends providing affordable, dependable lawn care in our community. We take pride in our work and treat every yard like it's our own.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Ready for a Fresh Cut?</h2>
+  <p style="margin:12px 0 25px;">Call or text us for a free quote.</p>
+  <a class="btn primary" href="tel:+18036872849">📞 Call Dre: 803-687-2849</a>
+  <a class="btn secondary" href="sms:+18036872849">💬 Text Dre</a><br><br><a class="btn primary" href="tel:+18039602027">📞 Call Parker: 803-960-2027</a><a class="btn secondary" href="sms:+18039602027">💬 Text Parker</a>
+  <p style="margin-top:25px;">📍 Serving Lexington, SC and nearby areas<br>🗓️ Available Friday, Saturday & Sunday</p>
+  <p style="margin-top:8px;">Call or text Dre or Parker to schedule.</p>
+</section>
+
+<footer>
+  © 2026 Dre & Parker's Lawn Care • Lawn Care & Outdoor Services
+</footer>
+</body>
+</html>
